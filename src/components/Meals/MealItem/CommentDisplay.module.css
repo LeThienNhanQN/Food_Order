@@ -1,0 +1,77 @@
+/* CommentDisplay.module.css */
+
+.commentsList {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.commentTitle {
+  cursor: pointer;
+  font-size: 1rem;
+  color: #007bff;
+  display: flex;
+  align-items: center;
+}
+
+.commentTitleIcon {
+  font-size: 1rem;
+  margin-right: 5px;
+  transition: transform 0.3s ease;
+}
+
+.commentTitleText {
+  transition: color 0.3s ease;
+}
+
+.commentTitle.active .commentTitleIcon {
+  transform: rotate(180deg);
+}
+
+.commentTitle.active .commentTitleText {
+  color: #ff5722;
+}
+
+.commentContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  overflow-y: auto;
+  max-height: 200px;
+}
+
+.comment {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.commentUser {
+  display: flex;
+  align-items: center;
+}
+
+.commentUserImage {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.commentUserName {
+  font-weight: bold;
+}
+
+.commentRating {
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 5px;
+}
+
+.commentContent {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+/* ... */

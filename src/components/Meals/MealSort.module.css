@@ -1,0 +1,25 @@
+.sort {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.sort label {
+  margin-right: 0.5rem;
+}
+
+.sort select {
+  padding: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.sort select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.sort select:focus::placeholder {
+  color: #007bff;
+}
